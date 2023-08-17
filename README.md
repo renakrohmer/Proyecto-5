@@ -25,7 +25,7 @@ Para este proyecto, usarás React, una biblioteca JavaScript para construir inte
 
 ## 2. Demo
 
-Puedes acceder a la sección del demo directamente aqui: [LINK](https://github.com/U-Camp/7M_FULLSTACK_M5_PROY/tree/main/demo)
+Puedes acceder a la sección del demo directamente aqui: [LINK](https://github.com/UDDBootcamp/7M_FULLSTACK_M5_PROY/tree/master/demo)
 
 En esta demo, usamos una API llamada `https://exchangerate.host/`, la cual gratuitamente proporciona información histórica sobre las divisas en el tiempo.
 
