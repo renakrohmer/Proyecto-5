@@ -101,10 +101,10 @@ A partir de los requisitos, tu % estará definido de esta forma:
 
 | ÁREA       | % DEL TOTAL |
 | ------------- |:-------------:|
-| REACT | 50%     |
-| CONTROL DE VERSIONES      | 30%     |
-| DESPLIEGUE | 5%      |
-| ENTREGA A TIEMPO | 15%      |
+| REACT | 70%     |
+| CONTROL DE VERSIONES      | 15%     |
+| DESPLIEGUE | 10%      |
+| ENTREGA A TIEMPO | 5%      |
 
 ****
 
