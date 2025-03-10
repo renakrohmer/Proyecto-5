@@ -10,6 +10,7 @@ function Header() {
                 className="rounded-md bg-indigo-800 px-6 py-3 text-lg font-semibold text-white"
               >
                 Random Facts for YOU!
+                Click on the button and you will get a new fact! Tell us if you like it or not!
               </a>
             </div>
           </div>
