@@ -7,8 +7,8 @@ Este proyecto es una aplicación desarrollada con **React.js** como parte del m�
 - React.js ⚛️  
 - Vite ⚡  
 - React Router 🛣️  
-- TailwindCSS (opcional) 🎨  
-- API externa (si usas alguna) 🌍  
+- TailwindCSS 🎨  
+- API externa 🌍  
 
 ### 📂 **Estructura del proyecto**  
 ```bash
