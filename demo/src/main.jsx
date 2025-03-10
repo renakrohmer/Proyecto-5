@@ -5,9 +5,12 @@ import { RouterProvider } from "react-router-dom";
 
 import "./index.css";
 import router from "./router";
+import Error from "./Error.jsx";  
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Error>
+      <RouterProvider router={router} />
+    </Error>
   </React.StrictMode>
 );
