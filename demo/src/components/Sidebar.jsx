@@ -21,17 +21,17 @@ export default function Sidebar() {
   }, []); 
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-pink-100"> {/* Fondo rosado que ocupa toda la pantalla */}
-      <div className="bg-pink-500 text-white p-8 rounded-xl shadow-lg w-full sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 2xl:w-4/12 text-center"> {/* Contenedor responsivo */}
+    <div className="min-h-screen flex justify-center items-center bg-pink-100"> 
+      <div className="bg-pink-500 text-white p-8 rounded-xl shadow-lg w-full sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 2xl:w-4/12 text-center"> 
         <div className="text-center mb-4">
-          <h1 className="text-3xl sm:text-4xl font-bold">Random Fact</h1> {/* Título más grande, ajustado para pantallas pequeñas */}
+          <h1 className="text-3xl sm:text-4xl font-bold">Random Fact</h1> 
         </div>
         <div className="mb-6">
           {loading ? (
-            <div>Loading...</div> // Muestra "Loading..." mientras se obtiene el hecho
+            <div>Loading...</div> 
           ) : (
             <div className="bg-pink-700 p-4 rounded-md">
-              <p>{fact}</p> {/* Muestra el hecho aleatorio */}
+              <p>{fact}</p> 
             </div>
           )}
         </div>
@@ -45,7 +45,7 @@ export default function Sidebar() {
         </div>
         <div className="mt-4">
           <button
-            onClick={() => setLoading(true)} // Esto recarga el hecho aleatorio
+            onClick={() => setLoading(true)} 
             className="bg-pink-600 px-6 py-3 rounded-md hover:bg-pink-700"
           >
             Load Another Fact
